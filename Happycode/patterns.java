@@ -1,3 +1,5 @@
+package Happycode;
+
 public class patterns {
     void print(int n)
     {
