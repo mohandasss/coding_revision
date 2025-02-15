@@ -21,13 +21,13 @@ public class Palindrome {
         int Reversed = 0;
         while (n > 0) {
             int LastDigit = n % 10;
-            Reversed = Reversed*10+LastDigit;
-            n/=10;
+            Reversed = Reversed * 10 + LastDigit;
+            n /= 10;
 
         }
-        if (Copied==Reversed){
+        if (Copied == Reversed) {
             System.out.println("its a palindrome");
-        }else {
+        } else {
             System.out.println("its not a palindrome");
         }
     }

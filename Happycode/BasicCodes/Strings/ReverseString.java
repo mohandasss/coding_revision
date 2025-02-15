@@ -1,4 +1,4 @@
-package Math;
+package Strings;
 
 public class ReverseString {
     void reverse(String name)
