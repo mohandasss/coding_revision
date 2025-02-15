@@ -30,6 +30,7 @@ public class LargestElement {
         LargestElement largestElement = new LargestElement();
         largestElement.largest(arr);
         largestElement.smallest(arr);
+        
 
     }
 
