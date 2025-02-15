@@ -1,3 +1,4 @@
+package Math;
 public class SumofDigits {
     int sum = 0;
 

@@ -1,4 +1,4 @@
-package Happycode.BasicCodes;
+package Math;
 
 public class ReverseNumber {
     int reverse = 0;

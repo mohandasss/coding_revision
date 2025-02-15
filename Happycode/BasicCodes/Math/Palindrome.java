@@ -1,4 +1,4 @@
-package Happycode.BasicCodes;
+package Math;
 
 public class Palindrome {
     void StringPalindrome(String s) {

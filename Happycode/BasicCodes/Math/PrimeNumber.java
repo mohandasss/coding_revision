@@ -1,3 +1,4 @@
+package Math;
 public class PrimeNumber {
 
     boolean PrimeOrNot(int n ){
