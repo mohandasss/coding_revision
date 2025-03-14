@@ -9,16 +9,16 @@ public class TrappingRainWater {
         while (left < right) {
             if (height[left] < height[right]) {
                 if (height[left] >= leftMax) {
-                    leftMax = height[left]; // Update left max
+                    leftMax = height[left]; 
                 } else {
-                    totalWater += leftMax - height[left]; // Trap water
+                    totalWater += leftMax - height[left]; 
                 }
                 left++;
             } else {
                 if (height[right] >= rightMax) {
-                    rightMax = height[right]; // Update right max
+                    rightMax = height[right]; 
                 } else {
-                    totalWater += rightMax - height[right]; // Trap water
+                    totalWater += rightMax - height[right]; 
                 }
                 right--;
             }
@@ -29,6 +29,6 @@ public class TrappingRainWater {
     public static void main(String[] args) {
         TrappingRainWater solution = new TrappingRainWater();
         int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
-        System.out.println(solution.trap(height)); // Output: 6
+        System.out.println(solution.trap(height));
     }
 }
