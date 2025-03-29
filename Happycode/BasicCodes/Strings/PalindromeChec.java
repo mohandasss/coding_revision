@@ -7,7 +7,7 @@ public class PalindromeChec {
     }
 
     public static void main(String[] args) {
-        String input = "madam";
+        String input = "ma";
         System.out.println("Is Palindrome? " + isPalindrome(input));
     }
 }
