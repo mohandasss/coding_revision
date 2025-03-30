@@ -8,6 +8,6 @@ public class PalindromeChec {
 
     public static void main(String[] args) {
         String input = "ma";
-        System.out.println("Is Palindrome? " + isPalindrome(input));
+        System.out.println("Is Palinde " + isPalindrome(input));
     }
 }
